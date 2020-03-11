@@ -18,13 +18,13 @@ require __DIR__.'/vendor/autoload.php';
 // https://github.com/webmozart/assert
 // use Webmozart\Assert\Assert;
 
-// // Curl
-// // https://github.com/php-curl-class/php-curl-class
+// Curl
+// https://github.com/php-curl-class/php-curl-class
 use \Curl\Curl;
 $curl = new Curl();
 
-// // Medoo
-// // https://medoo.in/
+// Medoo
+// https://medoo.in/
 use Medoo\Medoo;
 
 // try {
