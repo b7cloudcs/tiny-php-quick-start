@@ -1,0 +1,15 @@
+{
+    "name": "dialogueplay/tiny-php-project-start",
+    "require": {
+        "php-curl-class/php-curl-class": "^8.7",
+        "catfan/medoo": "^1.7",
+        "webmozart/assert": "^1.7",
+        "dialogueplay/php-request-helper": "^0.0.1"
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://mirrors.aliyun.com/composer/"
+        }
+    }
+}
