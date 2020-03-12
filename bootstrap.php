@@ -39,15 +39,18 @@ class Assert extends Webmozart\Assert\Assert{
 // https://github.com/php-curl-class/php-curl-class
 $curl = new \Curl\Curl;
 
-// // Medoo
-// // https://medoo.in/
+// Medoo
+// https://medoo.in/
+// database_type as : mysql or sqlite or pgsql
 // try {
 //     $db = new Medoo\Medoo([
 //         'database_type' => 'mysql',
-//         'database_name' => 'root',
-//         'server' => '127.0.0.1',
+//         'database_name' => 'test',
 //         'username' => 'root',
-//         'password' => 'root'
+//         'password' => 'aydsport@1231',
+//         'server' => '127,0,0,1',
+//         'port' => 3306,
+//         'charset' => 'utf8',
 //     ]);
 // } catch (\Throwable $th) {
 //     exit($th);
