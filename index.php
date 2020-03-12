@@ -3,12 +3,6 @@
 // bootstrap
 require __DIR__.'/bootstrap.php';
 
-// uses
-use PhpRequestHelper\Helper;
-use PhpRequestHelper\Request;
-use PhpRequestHelper\Response;
-use Webmozart\Assert\Assert;
-
 var_dump(Helper::valueFilter(null, "default value"));
 var_dump(Helper::valueBoolFilter("false"));
 var_dump(Helper::valueBoolFilter("0"));
